@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   get 'welcome/index'
-  get 'home/index'
 
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
